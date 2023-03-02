@@ -1,5 +1,4 @@
 plugins {
-<<<<<<< HEAD
 	id 'org.springframework.boot' version '2.3.1.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
 	id 'java'
@@ -8,23 +7,12 @@ plugins {
 group = 'com.platzi'
 version = '1.0'
 sourceCompatibility = '11'
-=======
-	id 'java'
-	id 'org.springframework.boot' version '3.0.2'
-	id 'io.spring.dependency-management' version '1.1.0'
-}
-
-group = 'com.platzi'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
->>>>>>> 6ac5957a85beb807fe0f94f0c56b513e0ef9dfe4
 
 repositories {
 	mavenCentral()
 }
 
 dependencies {
-<<<<<<< HEAD
 	implementation 'org.springframework.boot:spring-boot-starter-security:2.7.6'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -44,12 +32,5 @@ dependencies {
 }
 
 test {
-=======
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-}
-
-tasks.named('test') {
->>>>>>> 6ac5957a85beb807fe0f94f0c56b513e0ef9dfe4
 	useJUnitPlatform()
 }
